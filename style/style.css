@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.heroPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/pexels-danny-meneses-943096.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.heroPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/pexels-danny-meneses-943096.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.nav{
+    display: flex;
+    position: fixed;
+    justify-content:space-between;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(51, 50, 50);
+    z-index: 9;
+}
+.menu{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+.menu li{
+    width: 24%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;       
+
+}
+.join{
+    background-color: rgb(6, 192, 99);
+    border-radius: 7px;
+}
+.join:hover{
+    background:rgb(6, 162, 99);
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
+.searchBox{
+    display: flex;
+    align-self: center;
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border-radius: 9px;
+}
+.searchIcon{
+    width: 10%;
+    height: 20px;
+    margin-top: 14px;
+    
+}
+#searcharea{
+    width: 85%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+}
+/*hero page*/
+
+.heroTitle{
+    margin-top: 3%;
+    width: 52%;
+    height: 60%;
+    transition: .6s;
+
+}
+.heroText{
+    padding: .5em;
+    font-size: 3em;
+    color:white;
+    /*background-color: rgb(6, 192, 99);*/
+    font-weight:bolder;
+    transition: .6s;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.helpUs{
+    background-color: black;
+    font-size: 0.5em;
+    font-weight:bolder;
+}
+.slack{
+    background-color:rgb(6, 192, 99);
+    padding: 1em 3em;
+    margin-left: 6em;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    border: none;
+    border-radius: 9px;
+    transition: 3s;
+}
+.slack:hover{
+    background-color: rgb(6, 162, 99);
+}
